@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+
+
+
+	<details>
+
+
+		<xpath_email>//*[@id="EMail"]</xpath_email>
+		<continue_btn>//*[@id="submit"]</continue_btn>
+		<xpath_password>//*[@id="Password"]</xpath_password>
+		<xpath_user>//a[@name='NAV_EMC_SUITE_USERS']</xpath_user>
+		<xpath_addUserBtn>//*[@id='addUserButton']</xpath_addUserBtn>
+		<xpath_fullname>//*[@name='addUserBasicForm.fullName']
+		</xpath_fullname>
+		<xpath_username>//*[@name='addUserBasicForm.username']
+		</xpath_username>
+		<xpath_AddUserpassword>//*[@name='addUserBasicForm.userPasswordHidden']
+		</xpath_AddUserpassword>
+		<xpath_domain>//*[@name='addUserBasicForm.domain']</xpath_domain>
+		<xpath_addUserEmail>//*[@name='addUserBasicForm.notificationModel.userEmail']
+		</xpath_addUserEmail>
+		<xpath_saveBtn>//*[@class='button blue-btn']</xpath_saveBtn>
+		<xpath_logoutBtn>//*[@class='profile_logout']</xpath_logoutBtn>
+	</details>
+
+</login>

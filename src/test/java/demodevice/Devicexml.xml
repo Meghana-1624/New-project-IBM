@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+	<device>
+
+
+		<xpath_email>//*[@id="EMail"]</xpath_email>
+		<continue_btn>//*[@id="submit"]</continue_btn>
+		<xpath_password>//*[@id="Password"]</xpath_password>
+		<device_btn>//a[@name="NAV_EMC_SUITE_DEVICES"]</device_btn>
+		<add_devicebtn>//button[@id="addDeviceLink"]</add_devicebtn>
+		<device_username>//input[@name="addDeviceBasicForm.osUsernameVisibleInput"]
+		</device_username>
+		<device_domain>//input[@id="addDeviceBasicForm.domain"]
+		</device_domain>
+		<device_email>//input[@id="addDeviceBasicForm.notificationModel.userEmail"]
+		</device_email>
+		<device_savebtn>//input[@id="addDeviceSubmitButton"]</device_savebtn>
+		<xpath_securityCheckPW>////div/span/input[@id='centralisedPassword']</xpath_securityCheckPW>
+		<xpath_securityCheckSubmit>//*[@id='pwdSubmit']</xpath_securityCheckSubmit>
+		<text_element>//*[@id="ui-dialog-title"]</text_element>
+
+
+
+	</device>
+
+
+</login>
